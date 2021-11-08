@@ -20,9 +20,9 @@ function Admin(...params) {
 }
 
 var firstUser = new User('testemail@gmail.com', 'Ryan', 'Gale');
-var Admin = new User('AdminUser@gmail.com', 'Hannah', 'Sherran');
+var admin = new User('AdminUser@gmail.com', 'Hannah', 'Sherran');
 
 firstUser.login();
 
 console.log(firstUser);
-console.log(Admin)
+console.log(admin)
