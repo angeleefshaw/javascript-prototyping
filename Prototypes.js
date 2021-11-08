@@ -17,10 +17,15 @@ User.prototype.logout = function() {
 
 function Admin(...params) {
     User.apply(this, params)
+    this.role = 'Super admin'
 }
 
+//admin is inheriting the Users prototype
+Admin.prototype = Object.create(User.prototype);
+
+
 var firstUser = new User('testemail@gmail.com', 'Ryan', 'Gale');
-var admin = new User('AdminUser@gmail.com', 'Hannah', 'Sherran');
+var admin = new Admin('AdminUser@gmail.com', 'Hannah', 'Sherran');
 
 firstUser.login();
 
