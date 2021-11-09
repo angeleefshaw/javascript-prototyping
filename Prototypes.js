@@ -52,3 +52,15 @@ function removeDuplicates(arr) {
 
 console.log(removeDuplicates(arrayOfNumbers));
 
+function findFactorial(number) {
+    //Base case
+    if (number == 1) {
+      return 1;
+    }
+  
+    //if Base case fails, recursive function call
+    return number * findFactorial(number - 1);
+  }
+  
+  console.log(findFactorial(5));
+
