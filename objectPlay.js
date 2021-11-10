@@ -2,10 +2,10 @@ class Country {
 
     constructor(name, nationalColors, population, worldShare, region) {
         this.name = name;
-        this.nationalColors = this.nationalColors;
-        this.population = this.population;
-        this.worldShare = this.worldShare;
-        this.region = this.region;
+        this.nationalColors = nationalColors;
+        this.population = population;
+        this.worldShare = worldShare;
+        this.region = region;
     }
 
     orderByPopulation() {
@@ -21,3 +21,6 @@ class Country {
     }
 
 }
+
+const unitedStates = new Country('United States', 'Red, White, Blue', 331,002,651, 0.042, 'North America')
+console.log(unitedStates)
