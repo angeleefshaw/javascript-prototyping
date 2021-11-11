@@ -8,7 +8,7 @@
 // so the formula on line 6 -> (a+bi)(a+bi) + (a+bi) 
 
 function setup() {
-    createCanvas(windowWidth, windowHeight);
+    createCanvas(1250, windowHeight);
     pixelDensity(1);
     loadPixels();
     for (var x = 0; x < width; x++) {
