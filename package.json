@@ -1,0 +1,22 @@
+{
+  "name": "javascript-prototyping",
+  "version": "1.0.0",
+  "description": "Javascript Playground",
+  "main": "objectPlay.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angeleefshaw/javascript-prototyping-and-miscellaneous-code.git"
+  },
+  "author": "Angelee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angeleefshaw/javascript-prototyping-and-miscellaneous-code/issues"
+  },
+  "homepage": "https://github.com/angeleefshaw/javascript-prototyping-and-miscellaneous-code#readme",
+  "dependencies": {
+    "p5": "^1.4.0"
+  }
+}
