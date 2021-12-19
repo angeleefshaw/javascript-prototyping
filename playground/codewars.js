@@ -4,4 +4,4 @@ function spinWords(words){
     }).join(' ');
   }
 
-  spinWords("Testing my Code to see which words are reversed.")
+  spinWords("Testing Code to see which words are reversed.")
