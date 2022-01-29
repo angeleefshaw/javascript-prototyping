@@ -23,5 +23,7 @@ function isEven(num) {
 console.log(arr.every(isEven));
 
 //change elements in an array to a static value at a given index
+// syntax fill(value, start, end)
 let filledArr = arr2.fill("Filler Text", 2)
 console.log(`I have added filler text to our array to give [${filledArr}]`)
+

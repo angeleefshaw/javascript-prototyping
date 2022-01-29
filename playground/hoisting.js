@@ -5,7 +5,7 @@
 console.log(add(1,2)); 
 // prints 3
  
-//The code runs and returns 4 as expected because the function add() is hoisted
+//The code runs and returns 3 as expected because the function add() is hoisted
 //during the compilation process. 
 function add(a,b) {
     return a + b
